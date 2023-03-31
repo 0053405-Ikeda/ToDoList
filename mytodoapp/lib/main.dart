@@ -91,8 +91,7 @@ class TodoAddPage extends StatelessWidget {
               width: double.infinity,
               // リスト追加ボタン
               child: ElevatedButton(
-                color: Colors
-                    .blue, //Error: No named parameter with the name 'color'.
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
                 onPressed: () {},
                 child: Text('リスト追加', style: TextStyle(color: Colors.white)),
               ),
